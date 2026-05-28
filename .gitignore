@@ -1,0 +1,7 @@
+build/
+upstream/mosib/build/
+*.o
+*.a
+*.so
+*.d
+infra-refs/
