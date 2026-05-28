@@ -5,3 +5,5 @@ upstream/mosib/build/
 *.so
 *.d
 infra-refs/
+upstream/data/*.json
+!upstream/data/euphorion_experiment_data.json

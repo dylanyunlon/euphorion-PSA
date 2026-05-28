@@ -32,3 +32,6 @@ target_link_libraries(benchmark_hardware mosib_lib pthread)
 
 add_executable(generate_data src/benchmark/generate_data.cpp)
 target_link_libraries(generate_data mosib_lib pthread)
+
+add_executable(benchmark_engine src/benchmark/benchmark_engine.cpp)
+target_link_libraries(benchmark_engine mosib_lib pthread)
